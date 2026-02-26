@@ -338,7 +338,7 @@ body {
         align-items: flex-start; 
     }
 }
-/* Styling the SVG to match your existing icons */
+/* SVG Styling */
 .icon-svg {
     margin-right: 4px;
     flex-shrink: 0;
@@ -355,15 +355,15 @@ body {
     color: #fff !important;
 }
 
-/* --- ADDITIVE WORMHOLE EFFECT --- */
+/* --- WORMHOLE EFFECT --- */
 .wormhole-overlay {
     position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
     height: 100vh;
-    z-index: -1; /* Ensures it stays behind your content */
-    pointer-events: none; /* Prevents click issues */
+    z-index: -1; 
+    pointer-events: none; 
     overflow: hidden;
 }
 
@@ -412,9 +412,31 @@ body {
     }
 }
 
-.wormhole:nth-child(1) { left: 15%; animation-delay: 0s; }
-.wormhole:nth-child(2) { left: 45%; animation-delay: 3s; }
-.wormhole:nth-child(3) { left: 75%; animation-delay: 6s; }
-.wormhole:nth-child(4) { left: 25%; animation-delay: 1.5s; }
-.wormhole:nth-child(5) { left: 55%; animation-delay: 4.5s; }
-.wormhole:nth-child(6) { left: 85%; animation-delay: 7.5s; }
+.wormhole:nth-child(1) { 
+    left: 15%; 
+    animation-delay: 0s; 
+}
+
+.wormhole:nth-child(2) { 
+    left: 45%; 
+    animation-delay: 3s; 
+}
+
+.wormhole:nth-child(3) { 
+    left: 75%; 
+    animation-delay: 6s;
+ }
+ 
+.wormhole:nth-child(4) { 
+    left: 25%; 
+    animation-delay: 1.5s;
+}
+.wormhole:nth-child(5) { 
+    left: 55%; 
+    animation-delay: 4.5s; 
+}
+.wormhole:nth-child(6) { 
+    left: 85%; 
+    animation-delay: 7.5s; 
+
+}
